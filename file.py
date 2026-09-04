@@ -3,6 +3,7 @@ import streamlit as st
 from snowflake.snowpark import Session
 from snowflake.snowpark.functions import col
 import requests  
+import pandas
 
 connection_parameters = st.secrets["connections"]["snowflake"]
 
